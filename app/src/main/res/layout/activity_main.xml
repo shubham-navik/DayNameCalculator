@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="Welcome to our Day Name calculator"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:hint="DD : ________"
+        android:textSize="28sp"
+        android:background="#C1D9DC"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingStart="10sp"
+        android:id="@+id/etDate"/>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="76dp"-->
+<!--        android:hint="MM : ________"-->
+<!--        android:textSize="28sp"-->
+<!--        android:background="#C1D9DC"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:paddingStart="10sp"-->
+<!--        android:id="@+id/YY"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="76dp"-->
+<!--        android:hint="YY : ________"-->
+<!--        android:textSize="28sp"-->
+<!--        android:background="#C1D9DC"-->
+<!--        android:layout_marginLeft="40dp"-->
+<!--        android:layout_marginRight="40dp"-->
+<!--        android:paddingStart="10sp"-->
+<!--        android:id="@+id/YY"/>-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="50dp"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:id="@+id/tv"
+
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Get DayName"
+        android:textSize="30sp"
+        android:textColor="#3C3B31"
+        android:background="#C1D9DC"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnans"
+        />
+
+
+
+</LinearLayout>
